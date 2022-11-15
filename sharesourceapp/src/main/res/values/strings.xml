@@ -9,4 +9,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="share_pdf_to_target_app">SHARE PDF TO TARGET APP</string>
+    <string name="your_sample_pdf_file_in_raw_folder">Your sample pdf file in raw folder</string>
 </resources>
