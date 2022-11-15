@@ -50,7 +50,7 @@ class MainShareActivity : AppCompatActivity() {
         )
         checkUri(sharedFileUri)
         return Intent().apply {
-            action = Intent.ACTION_SEND
+            action = "android.intent.action.XPRINTER_PRINT"
             flags = Intent.FLAG_GRANT_READ_URI_PERMISSION
             setDataAndType(sharedFileUri, "application/pdf")
         }

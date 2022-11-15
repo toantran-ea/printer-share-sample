@@ -12,7 +12,7 @@
             android:name=".ShareTargetActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.XPRINTER_PRINT" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="application/pdf" />
             </intent-filter>
